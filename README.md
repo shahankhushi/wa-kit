@@ -45,4 +45,4 @@ claude "Read wa-kit/templates/marketing_templates.json and adapt the abandoned c
 ---
 
 ## License
-MIT © [Imam Haider (@darhaiderimam)](https://github.com/darhaiderimam)
+MIT © [Imam Haider (@darhaiderimam)](https://github.com/darhaiderimam) • [LinkedIn](https://www.linkedin.com/in/darhaiderimam)
