@@ -10,9 +10,9 @@
 
 ## Why `wa-kit`?
 
-Most open-source WhatsApp tools are bulk senders, Selenium scripts, and PHP webhooks that get accounts banned within 48 hours. 
+Most open-source WhatsApp tools are bulk senders, Selenium scripts, and unauthorized webhooks that get business phone numbers banned within 48 hours.
 
-In emerging and international markets (Latin America, Middle East, South Asia, Africa), **WhatsApp is not a messaging app — it is the Internet.** Over 80% of customer communication and commerce happens in WhatsApp chats.
+Across conversational-first markets in MENA, Latin America, and South Asia, WhatsApp functions as a primary customer communication and commerce channel. Building for these markets requires strict adherence to Meta's Business Messaging Policies, categorization rules, and user opt-in standards.
 
 `wa-kit` is **not a bulk spam sender**. It is the **architectural, compliance, and design layer** that sits above whichever sender you use (Meta Cloud API, Twilio, Infobip, ManyChat, or custom agents).
 
@@ -23,7 +23,7 @@ In emerging and international markets (Latin America, Middle East, South Asia, A
 1. **Meta Pre-Approved Template Schemas (`templates/marketing_templates.json`):**
    - Utility vs Marketing category structures.
    - Dynamic parameters, quick-reply buttons, and URL action triggers.
-   - Formatted to pass Meta's automated template approval bots on the first submission.
+   - Formatted to pass Meta's automated template approval criteria on initial submission.
 2. **Double Opt-In & Compliance Blueprints (`templates/opt_in_flows.md`):**
    - GDPR, TCPA, and Meta Business Policy compliant consent language.
    - Automated unsubscribe and opt-out state management (`STOP`, `UNSUBSCRIBE`).
@@ -45,4 +45,4 @@ claude "Read wa-kit/templates/marketing_templates.json and adapt the abandoned c
 ---
 
 ## License
-MIT © [Haider (@darimamhaider)](https://github.com/darimamhaider)
+MIT © [Imam Haider (@darhaiderimam)](https://github.com/darhaiderimam)
