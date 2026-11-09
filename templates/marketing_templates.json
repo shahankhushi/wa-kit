@@ -1,0 +1,74 @@
+[
+  {
+    "template_name": "abandoned_checkout_recovery_v1",
+    "category": "MARKETING",
+    "language": "en_US",
+    "meta_approval_status": "PRE_APPROVED_PATTERN",
+    "header": {
+      "type": "TEXT",
+      "text": "Your cart is reserved 🛒"
+    },
+    "body": "Hi {{1}}, we noticed you left the {{2}} in your cart. We've saved your items and applied a 10% courtesy discount valid for the next 24 hours.",
+    "footer": "Reply STOP to unsubscribe",
+    "buttons": [
+      {
+        "type": "URL",
+        "text": "Complete Order",
+        "url": "https://example.com/checkout?discount=SAVE10&session={{3}}"
+      },
+      {
+        "type": "QUICK_REPLY",
+        "text": "Talk to Specialist"
+      }
+    ]
+  },
+  {
+    "template_name": "subscription_reorder_reminder_v1",
+    "category": "UTILITY",
+    "language": "en_US",
+    "meta_approval_status": "PRE_APPROVED_PATTERN",
+    "header": {
+      "type": "TEXT",
+      "text": "Upcoming Order Confirmation 📦"
+    },
+    "body": "Hi {{1}}, your next 30-day supply of {{2}} is scheduled to ship on {{3}}. Would you like to keep this delivery date or modify your flavors?",
+    "footer": "Apex Performance Labs",
+    "buttons": [
+      {
+        "type": "QUICK_REPLY",
+        "text": "Ship Now"
+      },
+      {
+        "type": "QUICK_REPLY",
+        "text": "Delay 2 Weeks"
+      },
+      {
+        "type": "URL",
+        "text": "Manage Flavors",
+        "url": "https://example.com/account/subscriptions"
+      }
+    ]
+  },
+  {
+    "template_name": "consultation_appointment_confirmed",
+    "category": "UTILITY",
+    "language": "en_US",
+    "meta_approval_status": "PRE_APPROVED_PATTERN",
+    "header": {
+      "type": "TEXT",
+      "text": "Consultation Confirmed 📅"
+    },
+    "body": "Hi {{1}}, your growth strategy session with {{2}} is confirmed for {{3}} at {{4}} ({{5}} timezone). Please find the calendar invite below.",
+    "buttons": [
+      {
+        "type": "URL",
+        "text": "Add to Calendar",
+        "url": "https://example.com/calendar/invite/{{6}}"
+      },
+      {
+        "type": "QUICK_REPLY",
+        "text": "Reschedule"
+      }
+    ]
+  }
+]
